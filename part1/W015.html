@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style> thead{
+        background-color: yellow;
+    }
+    tbody{
+        background-color: silver;
+    }
+    tfootf{
+        background-color: pink;
+    }
+
+    </style>
+</head>
+<body>
+    <table border="1">
+        <colgroup>
+        <col span="2" style="background-color: Silver;">
+        <col style="background-color: pink;">
+        </colgroup>
+        <caption>Marks</caption>
+        <thread>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thread>
+        <tbody>
+            <tr>
+                <td>Megh</td>
+                <td>Java</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Reddy</td>
+                <td>python</td>
+                <td>95</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Average</td>
+            </tr>
+        </tfoot>
+        
+    </table>
+</body>
+</html>
