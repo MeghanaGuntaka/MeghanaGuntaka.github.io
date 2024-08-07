@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            color: green;
+        }
+        #p1{
+            color: blueviolet;
+        }
+        
+        div p{
+            background-color:beige;
+        }
+        #p2{
+            background-color: blueviolet;
+        }
+        .c3{
+            color: blue;
+            background-color: black;
+        }
+        .c1 .c2{
+            color: red;
+        }
+        .c3, .c4{
+            color: brown;
+        }
+        .c5{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello Everyone!</h1>
+    <h1 style="color: red;">This is a sample text</h1>
+    <p id="p1">This is a sample paragraph</p>
+    <p>This is paragraph2</p>
+    <p class="c1 c2">Sample paragraph</p>
+    <div>
+        <p>This Paragraph is inside div</p>
+    </div>
+    <div class="c1">
+        <p class="c2">div paragraph inside c1</p>
+        <p class="c2">div paragraph 2</p>
+    </div>
+    <p class="c1 c2">Sample paragraph</p>
+    <div class="c3">
+        <p class="c3">This paragraph is for c3</p>
+        <p class="c4">This paragraph is for c4</p>
+    </div>
+    <p class="c3">Paragraph for checking c3</p>
+    <div class="c3 c5">
+        this is a sapmle text for both classes
+    </div>
+</body>
+</html>
