@@ -1,0 +1,22 @@
+.header{
+    float: left;
+   
+
+}
+.container{
+    display: flex;
+  
+
+}
+.content{
+
+    display: flex;
+    justify-content: space -evenly;
+}
+.box1{ 
+
+    width: 100px;
+    height: 100px;
+    margin: 100px;
+    padding: 20px;
+}
