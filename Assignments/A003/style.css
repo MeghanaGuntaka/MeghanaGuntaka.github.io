@@ -16,16 +16,18 @@
 }
 h1{
     font-size: 60px;
+    margin:0px 0px;
     color: rgb(24, 119, 242)
 }
 .p{
     color: black;
+    margin-top:10px;
     font-size: 30px;
 
 }
 .box{
     margin-top: 150px;
-    align: right;
+    /* align: right; */
     width: 340px;
     height: 280px;
     padding: 20px;
@@ -35,13 +37,19 @@ h1{
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 input{
-    text-align: center;
+    text-align: left;
     margin-bottom: 15px;
     width: 310px;
     height: 37px;
     border: 1px solid #e0e0e0;
     font-size: 15px;
     border-radius: 8px;
+}
+input[type="email"]:focus {
+    background-color: yellow;
+}
+input[type="password"]:focus {
+    background-color: yellow;
 }
 .button {
     background-color: rgb(24, 119, 242);
