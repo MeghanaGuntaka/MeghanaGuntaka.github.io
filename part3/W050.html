@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoElements</title>
+    <style>
+        div::first-line{
+            color: violet;
+        }
+        div::first-letter{
+            color: black;
+            font-size: 20px;
+        } 
+        ::selection{
+            color: red;
+            background-color: orange;
+        }
+        ::marker{
+            color: blue;
+            font-size: 20px;
+        }
+        p::before{
+            content: url("/Images/Image2.jpeg");
+        }
+        p.lesson::first-letter{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod libero vel maxime aperiam! Quasi odio voluptatum qui quisquam hic, totam distinctio recusandae, perspiciatis dicta excepturi explicabo, architecto non doloremque quia.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dolorum minima optio odit, et quam alias laudantium fugiat ratione accusantium animi tempore reiciendis modi ducimus commodi vero, nesciunt quisquam excepturi!
+    </div>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <p class="lesson">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, in? Molestias, eum iure similique ducimus harum eaque recusandae nesciunt a illo quis voluptas enim corrupti magnam animi sunt numquam error!
+    </p>
+</body>
+</html>
