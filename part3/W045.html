@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/Images/Image2.jpeg">
+    <style>
+        .div1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: aqua;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        *{
+            margin: 0px;
+        }
+        ul{
+            top: 0px;
+            right: 0px;
+            /* margin: 0px; */
+            padding: 0px;
+            background-color: bisque;
+            position: absolute;
+            /* text-align: right; */
+        }
+        li{
+            display: inline-block;
+            padding: 5px;
+        }
+        .menu:hover .submenu{
+            display: block;
+        }
+        .submenu{
+            display: none;
+            position: absolute;
+            background-color: aqua;
+            padding: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div>
+            <h1>Company Name</h1>
+        </div>
+        <div>
+            <ul>
+                <li>Home</li>
+                <li class="menu">Courses
+                <div class="submenu">
+                    <a href="#">Python</a> <br>
+                    <a href="#">Java</a> <br>
+                    <a href="#">ML</a> <br>
+                </div>
+                </li>
+                <li>Login</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

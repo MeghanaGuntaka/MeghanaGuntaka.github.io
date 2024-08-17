@@ -2,6 +2,7 @@
     background-image:url("/Images/netflix.png");
     background-size: cover;
     background-repeat: no-repeat;
+    position: absolute;
     padding: 10px 8%;
     height: 80vh;
     position: relative;
