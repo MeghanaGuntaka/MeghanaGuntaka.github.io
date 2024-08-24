@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        function calc(){
+            const result=txtNum.value * txtNum.value;
+            lblAnswer.innerHTML = result
+        }
+    </script>
+</head>
+<body>
+    <p><input type="text" id="txtNum"/></p>
+    <p><button onclick="calc()">Submit</button></p>
+    <label id="lblAnswer"></label>
+</body>
+</html>
