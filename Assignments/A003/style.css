@@ -45,12 +45,12 @@ input{
     font-size: 15px;
     border-radius: 8px;
 }
-input[type="email"]:fo {
+input[type="email"]:focus {
     background-color: yellow;
 }
-input[type="password"]:focus {
+/* input[type="password"]:focus {
     background-color: yellow;
-}
+} */
 .button {
     background-color: rgb(24, 119, 242);
     border-radius: 5px;
